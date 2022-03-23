@@ -1,0 +1,19 @@
+@use "../partials/partials";
+
+
+.ns-menu {
+  &__box {
+    display: flex;
+    justify-content: space-between;
+    max-width: toRem(1200);
+    margin: auto;
+  }
+
+  &__item {
+    @extend %link;
+  }
+
+  &__item--active {
+
+  }
+}
